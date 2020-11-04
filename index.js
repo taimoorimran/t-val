@@ -1,4 +1,4 @@
-module.exports = function globalInputValidator(value, config) {
+module.exports = function tval(value, config) {
     if (value == null) return true;
     if (value.length == 0) return true;
     if ('minLength' in config && value.length < config.minLength) return;
