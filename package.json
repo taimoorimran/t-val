@@ -1,6 +1,6 @@
 {
     "name": "@taimoorimran/tval",
-    "version": "3.0.0",
+    "version": "2.1.0",
     "description": "t-val is an input validator, can be used with the input field and you can define set of rules to apply on field",
     "license": "MIT",
     "repository": "taimoorimran/tval",
