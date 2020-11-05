@@ -5,7 +5,7 @@ https://7ctech.com/tval-logo.png)
 
 **t-val** is an input validator, can be used with the input field and you can define set of rules to apply on input field.
 
-Here's the [Code Sandbox](https://breakdance.github.io/breakdance/)!
+Here's the [Code Sandbox](https://codesandbox.io/s/t-val-demo-rphyj?file=/src/App.js)!
 
 ### Installation
 Installing the package.
