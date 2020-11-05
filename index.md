@@ -34,26 +34,29 @@ const config = {
     minLength: 5
 }
 ```
-| Rule | Type | Value | Description |
-| ------ | ------ | ------ | ------ |
-| maxLength | int | - | Length of string should be lesser |
+**Rule:** maxLength
+**Type:** int
+**Value:** -
+**Description:** Length of string should be lesser
 ```javascript
 const config = {
     maxLength: 5
 }
 ```
-| Rule | Type | Value | Description |
-| ------ | ------ | ------ | ------ |
-| length | int | - | Length of string should be equals to |
+**Rule:** length
+**Type:** int
+**Value:** -
+**Description:** Length of string should be equals to
 ```javascript
 const config = {
     length: 5
 }
 ```
 #### Alphabets
-| Rule | Type | Value | Description |
-| ------ | ------ | ------ | ------ |
-| allowUpper | bool | Default: **False** | Allow upper case characters in string - [A-Z] |
+**Rule:** allowUpper
+**Type:** bool
+**Value:** Default: **False**
+**Description:** Allow upper case characters in string - [A-Z]
 ```javascript
 const config = {
     characters: {
@@ -61,9 +64,10 @@ const config = {
     }
 }
 ```
-| Rule | Type | Value | Description |
-| ------ | ------ | ------ | ------ |
-| allowLower | bool | Default: **False** | Allow lower case characters in string - [a-z] |
+**Rule:** allowLower
+**Type:** bool
+**Value:** Default: **False**
+**Description:** Allow lower case characters in string - [a-z]
 ```javascript
 const config = {
     characters: {
@@ -72,27 +76,30 @@ const config = {
 }
 ```
 #### Numerals
-| Rule | Type | Value | Description |
-| ------ | ------ | ------ | ------ |
-| allowNumeric | bool | Default: **False** | Allow numerals in string - [0-9] |
+**Rule:** allowNumeric
+**Type:** bool
+**Value:** Default: **False**
+**Description:** Allow numerals in string - [0-9]
 ```javascript
 const config = {
     allowNumeric: // true / false
 }
 ```
 #### Space
-| Rule | Type | Value | Description |
-| ------ | ------ | ------ | ------ |
-| dontAllowSpace | bool | Default: **False** | Allow spaces in string |
+**Rule:** dontAllowSpace
+**Type:** bool
+**Value:** Default: **False**
+**Description:** Allow spaces in string
 ```javascript
 const config = {
     dontAllowSpace: // true / false
 }
 ```
 #### Special Characters
-| Rule | Type | Value | Description |
-| ------ | ------ | ------ | ------ |
-| allowAll | bool | Default: **False** | Allow special characters => [!, @, #, $, %, ^, &, *] |
+**Rule:** allowAll
+**Type:** bool
+**Value:** Default: **False**
+**Description:** Allow special characters => [!, @, #, $, %, ^, &, *]
 ```javascript
 const config = {
     specialCharacters: {
@@ -100,9 +107,10 @@ const config = {
     }
 }
 ```
-| Rule | Type | Value | Description |
-| ------ | ------ | ------ | ------ | 
-| onlyAllowThese | bool | Default: **False** | Add selective special characters |
+**Rule:** onlyAllowThese
+**Type:** bool
+**Value:** Default: **False**
+**Description:** Add selective special characters
 ```javascript
 const config = {
     specialCharacters: {
