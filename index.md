@@ -1,37 +1,131 @@
-## Welcome to GitHub Pages
+![Logo of t-val](./tval_plugin_logo.png)
 
-You can use the [editor on GitHub](https://github.com/taimoorimran/t-val/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger) ![npm](https://img.shields.io/npm/v/@taimoorimran/tval)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**t-val** is an input validator, can be used with the input field and you can define set of rules to apply on input field.
 
-### Markdown
+Here's the [Code Sandbox](https://breakdance.github.io/breakdance/)!
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+### Installation
+Installing the package.
+```sh
+$ npm install @taimoorimran/tval
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/taimoorimran/t-val/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Usage
+```javascript
+// importing the package
+    import { tval } from 'taimoorimran/tval';
+// calling the function
+    const config = { 
+        ...
+    }
+    console.log(tval('value', config));
+```
+### Configuration
+#### Length
+| Rule | Type | Value | Description |
+| ------ | ------ | ------ | ------ |
+| minLength | int | - | Length of string should be greater |
+```javascript
+const config = {
+    minLength: 5
+}
+```
+| Rule | Type | Value | Description |
+| ------ | ------ | ------ | ------ |
+| maxLength | int | - | Length of string should be lesser |
+```javascript
+const config = {
+    maxLength: 5
+}
+```
+| Rule | Type | Value | Description |
+| ------ | ------ | ------ | ------ |
+| length | int | - | Length of string should be equals to |
+```javascript
+const config = {
+    length: 5
+}
+```
+#### Alphabets
+| Rule | Type | Value | Description |
+| ------ | ------ | ------ | ------ |
+| allowUpper | bool | Default: **False** | Allow upper case characters in string - [A-Z] |
+```javascript
+const config = {
+    characters: {
+        allowUpper: // true / false
+    }
+}
+```
+| Rule | Type | Value | Description |
+| ------ | ------ | ------ | ------ |
+| allowLower | bool | Default: **False** | Allow lower case characters in string - [a-z] |
+```javascript
+const config = {
+    characters: {
+        allowLower: // true / false
+    }
+}
+```
+#### Numerals
+| Rule | Type | Value | Description |
+| ------ | ------ | ------ | ------ |
+| allowNumeric | bool | Default: **False** | Allow numerals in string - [0-9] |
+```javascript
+const config = {
+    allowNumeric: // true / false
+}
+```
+#### Space
+| Rule | Type | Value | Description |
+| ------ | ------ | ------ | ------ |
+| dontAllowSpace | bool | Default: **False** | Allow spaces in string |
+```javascript
+const config = {
+    dontAllowSpace: // true / false
+}
+```
+#### Special Characters
+| Rule | Type | Value | Description |
+| ------ | ------ | ------ | ------ |
+| allowAll | bool | Default: **False** | Allow special characters => [!, @, #, $, %, ^, &, *] |
+```javascript
+const config = {
+    specialCharacters: {
+        allowAll: // true / false
+    }
+}
+```
+| Rule | Type | Value | Description |
+| ------ | ------ | ------ | ------ | 
+| onlyAllowThese | bool | Default: **False** | Add selective special characters |
+```javascript
+const config = {
+    specialCharacters: {
+        onlyAllowThese: '&#_-'
+    }
+}
+```
+#### Overview
+```javascript
+const config = {
+    minLength: 1,
+    maxLength: 5,
+    //OR
+    length: 10,
+    allowNumeric: // true / false,
+    characters: {
+        allowUpper: // true / false,
+        allowLower: // true / false
+    },
+    specialCharacters: {
+        allowAll: // true / false,
+        onlyAllowThese: '&#_-'
+    }
+}
+```
+### License
+**t-val** is  [MIT licensed](./LICENSE).
+### Powered By
+![Logo of 7ctech](https://7ctech.com/logo-small-2.png)
