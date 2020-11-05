@@ -1,5 +1,4 @@
-# t-val
-![Logo of 7ctech](http://www.7ctech.com/wp-content/uploads/thegem-logos/logo_7211857cb9a97fbae6f03a3890e86ac5_1x.png)
+![Logo of t-val](./tval_plugin_logo.png)
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger) ![npm](https://img.shields.io/npm/v/@taimoorimran/tval)
 
@@ -127,5 +126,6 @@ const config = {
 }
 ```
 ### License
-
 **t-val** is  [MIT licensed](./LICENSE).
+### Powered By
+![Logo of 7ctech](https://7ctech.com/logo-small-2.png)
