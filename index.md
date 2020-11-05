@@ -14,7 +14,7 @@ $ npm install @taimoorimran/tval
 ### Usage
 ```javascript
 // importing the package
-    import { tval } from 'taimoorimran/tval';
+    import tval from '@taimoorimran/tval';
 // calling the function
     const config = { 
         ...
