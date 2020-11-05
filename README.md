@@ -1,10 +1,10 @@
-![Logo of t-val](./tval_plugin_logo.png)
+![Logo of t-val](https://7ctech.com/tval-logo.png)
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger) ![npm](https://img.shields.io/npm/v/@taimoorimran/tval)
 
 **t-val** is an input validator, can be used with the input field and you can define set of rules to apply on input field.
 
-Here's the [Code Sandbox](https://breakdance.github.io/breakdance/)!
+Here's the [Code Sandbox](https://codesandbox.io/s/t-val-demo-rphyj?file=/src/App.js)!
 
 ### Installation
 Installing the package.

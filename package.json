@@ -4,6 +4,7 @@
     "description": "t-val is an input validator, can be used with the input field and you can define set of rules to apply on field",
     "license": "MIT",
     "repository": "taimoorimran/t-val",
+    "homepage": "https://taimoorimran.github.io/t-val/",
     "main": "index.js",
     "keywords": [
         "tval",
@@ -13,6 +14,7 @@
         "input",
         "react",
         "validation",
-        "saintize"
+        "saintize",
+        "7ctech"
     ]
 }
