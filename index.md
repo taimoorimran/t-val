@@ -1,4 +1,5 @@
-![Logo of t-val](tval_plugin_logo.png)
+![Logo of t-val](
+https://7ctech.com/tval-logo.png)
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger) ![npm](https://img.shields.io/npm/v/@taimoorimran/tval)
 
@@ -23,9 +24,11 @@ $ npm install @taimoorimran/tval
 ```
 ### Configuration
 #### Length
-| Rule | Type | Value | Description |
-| ------ | ------ | ------ | ------ |
-| minLength | int | - | Length of string should be greater |
+**Rule:** minLength
+**Type:** int
+**Value:** -
+**Description:** Length of string should be greater
+
 ```javascript
 const config = {
     minLength: 5
