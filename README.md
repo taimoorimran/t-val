@@ -116,7 +116,7 @@ const config = {
     length: 10,
     allowNumeric: // true / false,
     characters: {
-        allowUpper: // true / false
+        allowUpper: // true / false,
         allowLower: // true / false
     },
     specialCharacters: {
