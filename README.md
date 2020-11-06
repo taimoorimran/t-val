@@ -1,11 +1,10 @@
-# t-val
-![Logo of 7ctech](http://www.7ctech.com/wp-content/uploads/thegem-logos/logo_7211857cb9a97fbae6f03a3890e86ac5_1x.png)
+![Logo of t-val](https://7ctech.com/tval-logo.png)
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger) ![npm](https://img.shields.io/npm/v/@taimoorimran/tval)
 
 **t-val** is an input validator, can be used with the input field and you can define set of rules to apply on input field.
 
-Here's the [Code Sandbox](https://breakdance.github.io/breakdance/)!
+Here's the [Code Sandbox](https://codesandbox.io/s/t-val-demo-rphyj?file=/src/App.js)!
 
 ### Installation
 Installing the package.
@@ -15,7 +14,7 @@ $ npm install @taimoorimran/tval
 ### Usage
 ```javascript
 // importing the package
-    import { tval } from 'taimoorimran/tval';
+    import tval from '@taimoorimran/tval';
 // calling the function
     const config = { 
         ...
@@ -117,7 +116,7 @@ const config = {
     length: 10,
     allowNumeric: // true / false,
     characters: {
-        allowUpper: // true / false
+        allowUpper: // true / false,
         allowLower: // true / false
     },
     specialCharacters: {
@@ -127,5 +126,6 @@ const config = {
 }
 ```
 ### License
-
 **t-val** is  [MIT licensed](./LICENSE).
+### Powered By
+![Logo of 7ctech](https://7ctech.com/logo-small-2.png)
